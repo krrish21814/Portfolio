@@ -7,6 +7,20 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
     const projects = [
+           {
+            name: "Midas Travels",
+            description: "Midas Travels is a responsive landing page for a travel and cab booking service. It offers an intuitive layout for users to explore and book travel services seamlessly across devices.",
+            link: "https://www.midastravels.in/",
+            github: "https://github.com/krrish21814/midastravels", 
+            technologies: ["Next.js", "JavaScript","Tailwind CSS"]
+        },
+        {
+            name: "Gym Website",
+            description: "A modern landing page for a gym business that highlights services, promotes membership plans, and features bold visuals with a fitness-oriented design. Ideal for fitness centers looking to establish a strong online presence.",
+            link: "https://gym1-kappa.vercel.app/", 
+            github: "https://github.com/krrish21814/gym1",
+            technologies: ["Next.js", "JavaScript","Tailwind CSS"]
+        },
         {
             name: "Trackster",
             description: "Trackster is a goal-tracking and streak management platform that helps users build habits and achieve goals efficiently. It allows goal setting, task breakdowns, streak tracking, and visual insights, ensuring a seamless experience with real-time updates and state management.",
@@ -19,9 +33,8 @@ const Projects = () => {
             description: "Paybit is a secure and user-friendly e-wallet that facilitates seamless transactions. Designed with scalability and ease of use in mind, it allows users to manage their finances efficiently.",
             link: "https://paybit.krishnacodes.site",
             github: "https://github.com/krrish21814/E-wallet",
-            technologies: ['Next.js', 'TypeScript', 'Prisma', 'Tailwind CSS']
+            technologies: ["Next.js", "TypeScript", "Prisma", "Tailwind CSS"]
         },
-
     ];
 
     const containerVariants = {
